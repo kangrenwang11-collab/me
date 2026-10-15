@@ -1,0 +1,7 @@
+# 本机状态，不进任何仓库：
+#   .github_ip.json  —— 实测可用的 github.com IP 缓存（本机 DNS 被污染，见 publish_cloud.py 顶部注释）
+#   .last_publish    —— 上一次成功上云的时间戳，run_cloud.ps1 用它跟 personal.db 的 mtime 比
+#   .last_attempt    —— 上一次尝试的时间戳（含失败），用来做失败退避，别 15 分钟一次地刷
+.github_ip.json
+.last_publish
+.last_attempt
